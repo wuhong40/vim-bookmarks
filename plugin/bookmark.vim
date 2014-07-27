@@ -338,12 +338,12 @@ function! s:register_mapping(command, shortcut)
   endif
 endfunction
 
-call s:register_mapping('BookmarkShowAll',  'ma')
-call s:register_mapping('BookmarkToggle',   'mm')
+call s:register_mapping('BookmarkShowAll',  'ml')
+call s:register_mapping('BookmarkToggle',   'M')
 call s:register_mapping('BookmarkAnnotate', 'mi')
 call s:register_mapping('BookmarkNext',     'mn')
 call s:register_mapping('BookmarkPrev',     'mp')
-call s:register_mapping('BookmarkClear',    'mc')
+call s:register_mapping('BookmarkClear',    'md')
 call s:register_mapping('BookmarkClearAll', 'mx')
 
 " }}}
