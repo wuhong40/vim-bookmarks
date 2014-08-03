@@ -343,7 +343,7 @@ call s:register_mapping('BookmarkToggle',   'M')
 call s:register_mapping('BookmarkAnnotate', 'mi')
 call s:register_mapping('BookmarkNext',     'mn')
 call s:register_mapping('BookmarkPrev',     'mp')
-call s:register_mapping('BookmarkClear',    'md')
-call s:register_mapping('BookmarkClearAll', 'mx')
+call s:register_mapping('BookmarkClear',    'mx')
+call s:register_mapping('BookmarkClearAll', 'mX')
 
 " }}}
